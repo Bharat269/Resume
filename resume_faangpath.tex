@@ -1,0 +1,56 @@
+\documentclass{resume}
+\usepackage[left=0.3in,top=0.3in,right=0.3in,bottom=0.3in]{geometry}
+\usepackage{hyperref}
+
+\name{Bharat Mishra}
+\begin{document}
+\begin{center}
+\textbf{\large{\href{tel:+91 9161399599}{+91 9161399599} \textbar{} Lucknow, India \textbar{} {\href{mailto:bharatmishra269@gmail.com}{bharatmishra269@gmail.com \textbar{} \href{https://www.linkedin.com/in/bharat-mishra-50090a249/}{LinkedIn} \textbar{} GitHub}}}}
+\end{center}
+% Education Section
+\begin{rSection}{Education}
+\textbf{Bachelor of Technology}, VIT Bhopal University, Computer Science and Engineering  \textbf{CGPA: 9.11} \hfill  2027 \newline
+\textbf{Grade XII}, Vidyatree Modern World School {\textbf{Percentage: 95.25} }\hfill 2023 \end{rSection} 
+\begin{rSection}{TECHNICAL SKILLS}
+\begin{itemize}
+    \item \textbf{Programming Languages:} C/C++, Python, SQL
+    \item \textbf{ML/AI:} Tenserflow, Scikit-learn, pandas, FastAPI, NumPy, OpenAI Gym, OpenCV, MediaPipe, Pydantic
+    \item {\textbf{Developer tools:}} GitHub, Git, Docker, MySQL, PostgreSQL
+    \item \textbf{Core concepts:} Neural networks, Reinforcement Learning, Embeddings, Recommendation systems, Cosine Similarity search, NLP,  LLM Pipelines
+\end{itemize}
+\end{rSection}
+
+% Projects Section
+\begin{rSection}{Projects}
+     {\large \textbf{\href{https://github.com/Bharat269/DepoIndex}{ DepoIndex: AI Legal document indexing}}} LLM APIs, Prompt Engineering, PDF Processing 
+    \begin{itemize}
+    \item  Engineered an AI-powered tool to automate the generation of a table of contents from legal deposition PDFs using  an efficient preprocessing pipeline that annotates text with precise page and line numbers, minimizing prompt token count while enabling the LLM to extract topics with accurate source references. 
+\item Achieved \textbf{95\% page-level and 85\% line-level accuracy} in topic referencing through manual validation, delivering a highly reliable tool for rapid automated document indexing. 
+    \end{itemize}
+    {\large \href{https://github.com/fzzm05/attentia.ai}{\textbf{Attentia:  Adaptive Learning for neurodivergent children}}} FastAPI, OpenCV, MediaPipe, Q-learning
+    \begin{itemize}
+    \item Designed an adaptive learning system that detects attention/emotional state and performs tailored interventions (e.g., adjusting course difficulty, soothing with music, reducing distraction via animations). Built the training environment for the Q‑learning engine using a mix of deterministic and stochastic rules to simulate user behavior.
+    \item Engineered multi‑modal attention detection pipelines (facial landmarks, head pose, audio signals) with personalized baseline calibration, enabling accurate real‑time engagement tracking and low‑latency FastAPI integration. 
+    \end{itemize}
+    {\large \href{https://github.com/Bharat269/MovieMix}{\textbf{MovieLens: Semantic movie search}}} FastAPI, Docker, Tenserflow, Embeddings, Recommendation systems
+    \begin{itemize}
+    \item  Depolyed a production grade \textbf{below 50ms FastAPI+Docker inference pipeline}  semantic search system to convert raw user input tags into 100-D embeddings, and retrieve movies via vectorized cosine similarity against movie embeddings derived from \textbf{ matrix factorization}.
+    \item Engineered a 500-token tag vocabulary and a hypersphere-normalized text-to-vector neural network for \textbf{solving the hubness problem} and also fully solving the cold-start problem by generating embeddings from tags alone, that achieved \textbf{ 0.52 cosine similarity}.
+    \end{itemize}
+    {\large \href{https://github.com/Bharat269/ProjectExhibition-2-Search-Rescue}{\textbf{Rescue: Environment Navigation}}}  Multi Agent reinforcement Learning, Custom environment
+    \begin{itemize}
+    \item Developed autonomous agents using Q-learning tp optimize pathfinding in a dynamic, multi-agent search simulation of natural disaster environments,\textbf{ reducing search time by 90\%} compared to random walk .  
+    \item Engineered core the RL environment, core physics, action, states, rewards from scratch. Simulated human behaviour of the Social Forces Movement theory and Kinetic theory.
+    \end{itemize}
+\end{rSection}
+
+% Achievements Certifications Section
+\begin{rSection}{Achievements and Certifications}
+\begin{itemize}
+\item \textbf{Generative AI training by Kaggle and Google(2024)}: Transformers, LLMs, and prompt engineering.  
+\item \textbf{Global Rank 8261, TCS CodeVita (2024):} Solved advance algorithmic problems. 
+    \item \textbf{Google Certified Computer networking }Bits and Bytes of Computer Networking 
+\end{itemize}
+\end{rSection}
+
+\end{document}
